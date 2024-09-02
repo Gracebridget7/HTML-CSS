@@ -1,0 +1,39 @@
+body{
+background-color: lightblue;
+display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+.container {
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.container img{
+    width: 99%;
+    height: 150px;
+    border-radius: 5px;
+    
+}
+.container .title{
+    font-weight: bolder ;
+}
+.container .smaller{
+    font-weight: 100;
+    color: rgb(157, 151, 151);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(183, 85%, 33%); 
+}
